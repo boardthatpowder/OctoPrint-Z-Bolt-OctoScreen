@@ -69,11 +69,11 @@ class ZBoltOctoScreenPlugin(octoprint.plugin.SettingsPlugin,
             displayVersion = self._plugin_version,
 
             type="github_release",
-            user="Z-Bolt",
+            user="boardthatpowder",
             repo="OctoPrint-Z-Bolt-OctoScreen",
             current=self._plugin_version,
 
-            pip="https://github.com/Z-Bolt/OctoPrint-Z-Bolt-OctoScreen/archive/{target_version}.zip"
+            pip="https://github.com/boardthatpowder/OctoPrint-Z-Bolt-OctoScreen/archive/{target_version}.zip"
             )
         )
 
