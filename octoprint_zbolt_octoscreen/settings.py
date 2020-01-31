@@ -103,7 +103,7 @@ class ZBoltOctoScreenSettings(object):
             filament_out_length=800,
             toolchanger=False,
             z_axis_inverted=True,
-            gcodes=dict(auto_bed_level="G29",pause="PAUSE_MACRO"),resume="RESUME_MACRO",stop="M112",probe_calibrate="PROBE_CALIBRATE",change_filament="M600",load_filament="LOAD_FILAMENT",klipper_restart="RESTART",klipper_firmware_restart="FIRMWARE_RESTART",klipper_save_config="SAVE_CONFIG"
+            gcodes=dict(auto_bed_level="G29",pause="PAUSE_MACRO",resume="RESUME_MACRO",stop="M112",probe_calibrate="PROBE_CALIBRATE",change_filament="M600",load_filament="LOAD_FILAMENT",klipper_restart="RESTART",klipper_firmware_restart="FIRMWARE_RESTART",klipper_save_config="SAVE_CONFIG"),
             menu_structure=default_menu_structure,
         )
 
